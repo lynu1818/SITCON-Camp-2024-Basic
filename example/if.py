@@ -1,41 +1,44 @@
 ### if-else statement
 
 
-### example 1
-number = 10
-if number > 5:
-  print("Number is greater than 5.")
-# output: Number is greater than 5.
-
-
-### example 2
-number = 3
-if number > 5:
-    print("Number is greater than 5.")
+price = 150
+if price < 100:
+    print("Let's go to have some ramen!")
 else:
-    print("Number is not greater than 5.")
+    print("I'm about to go bankrupt")
+# output: I'm about to go bankrupt.
 
 
-### example 3
-number = -2
-if number > 0:
-    print("Number is positive.")
-elif number < 0:
-    print("Number is negative.")
+
+price = 150
+people = 1
+if price < 100 and people >= 2:
+    print("Let's go to have some ramen!")
 else:
-    print("Number is zero.")
+    print("Oh No :(")
+# output: Oh No :(
 
 
-### example 4
-if number > 0:
-    if(number % 2 == 0):
-        print("Number is positive and even.")
+
+price = 150
+people = 1
+if price > 100:
+    print("Too expensive.")
+elif people < 2:
+    print("I don't want to have ramen alone QQ")
+else:
+    print("Let's go to have some ramen!")
+# output: Too expensive.
+
+
+price = 150
+people = 1
+if price < 100:
+    if people >= 2:
+        print("Let's go to have some ramen!")
     else:
-        print("Number is positive and odd.")
-elif number < 0:
-    if(number % 2 == 0):
-        print("Number is negative and even.")
-    else:
-        print("Number is negative and odd.")
+        print("Find some friends to hang out with!")
 else:
-    print("Number is zero.")
+    print("I'm about to go bankrupt")
+# output: Find some friends to hang out with!
+

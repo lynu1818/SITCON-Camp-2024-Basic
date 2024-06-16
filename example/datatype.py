@@ -65,7 +65,7 @@ print(message)
 # 輸出: My name is Lily and I am 20 years old.
 
 
-### raw string
+### raw string (補充)
 
 path = r"C:\Users\Alice\Documents\file.txt"
 print(path)
@@ -74,23 +74,23 @@ print(path)
 
 ### type conversion
 
-x = 10               # int
-y = 3.14             # float
-result = x + y       # 隱式轉換
-print(result)        # 13.14
-print(type(result))  # <class 'float'>
+a = 10               # int
+b = 3.14             # float
+sum_ab = a + b
+print(sum_ab)        # 13.14
+print(type(sum_ab))  # <class 'float'>
 
 
 # 浮點數轉換為整數
 a = 3.14
-b = int(a)      # 顯式轉換
+b = int(a)
 print(b)        # 3
 print(type(b))  # <class 'int'>
 
 
 # 整數轉換為浮點數
 a = 10
-b = float(a)    # 顯式轉換
+b = float(a)
 print(b)        # 10.0
 print(type(b))  # <class 'float'>
 
@@ -106,3 +106,31 @@ a = 0
 b = bool(a)
 print(b)        # False
 print(type(b))  # <class 'bool'>
+
+
+### 為什麼要有資料型態
+
+# int + str
+a = 10
+b = "20"
+print(a+b)  # Type Error
+
+# int + int
+a = 10
+b = 20
+print(a+b)  # 30
+
+# str + str
+a = "10"
+b = "20"
+print(a+b)  # 1020
+
+# str * int
+a = "10"
+b = 2
+print(a * b) # 1010
+
+
+# test
+print(0.1 + 0.1 + 0.1 == 0.3)
+# False
