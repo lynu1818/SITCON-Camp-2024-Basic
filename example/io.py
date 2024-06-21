@@ -2,21 +2,22 @@
 
 print(123)                      # 123
 print("Hello, World!")          # Hello, World!
-print('Hello, World!')          # Hello, World!
-print("Hello", "World", 123)    # HelloWorld123
+print("Hello", "World", 123)    # Hello World 123
 print(1+2+3)                    # 6
-print("Hello" + "World")        # HelloWorld
-print(abc)                      # NameError
+
 
 ## escape sequence
 print("Hello, I'm Lily")        # Hello, I'm Lily
 print('Hello, I\'m Lily')       # Hello, I'm Lily
 
-print("Hello", "World", sep="---")
-# output: Hello---World
+print('"Hi," he said.')         # "Hi," he said.
+print("\"Hi,\" he said.")       # "Hi," he said.
 
-print("Hello", "World", end="!")
-# output: HelloWorld!
+print("tonkotsu", "miso", "shoyu", sep="/")
+# output: tonkotsu/miso/shoyu
+
+print("Hello", "World")
+# output: Hello World
 
 
 

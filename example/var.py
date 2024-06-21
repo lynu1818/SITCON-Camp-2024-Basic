@@ -1,11 +1,13 @@
 ### variable
 
-## {變數名稱} = {變數值}
+# 變數名稱 = 變數值
 name = "Lily"
-lecturer = name
-
 print(name)         # Lily
-print(lecturer)     # Lily
+
+
+age = 20
+age = age + 1
+print(age)          # 21
 
 # 變數可以儲存不同資料型態
 name = "Lily"

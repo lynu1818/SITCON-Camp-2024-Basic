@@ -60,10 +60,11 @@ print(stripped_text)
 ### f-string
 
 name = "Lily"
-message = f"My name is {name} and I am {19+1} years old."
-print(message)
+print(f"My name is {name} and I am 20 years old.")
 # 輸出: My name is Lily and I am 20 years old.
 
+name = "Lily"
+print("My name is " + name + " and I am 20 years old.")
 
 ### raw string (補充)
 

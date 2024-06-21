@@ -1,3 +1,5 @@
+# exercise3-4 質數判斷
+
 n = int(input("Please input a number: "))
 is_prime = True
 for i in range(2, int(n**(0.5)+1)):
