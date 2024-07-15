@@ -6,10 +6,15 @@ for i in range(101):
     print(i)
 
 # range
+for i in range(5):
+    print(i)
+# 0 1 2 3 4
+for i in range(1, 5):
+    print(i)
+# 1 2 3 4
 for i in range(1, 5, 2):
     print(i)
 # 1 3
-
 for i in range(5, 0, -1):
     print(i)
 # 5 4 3 2 1
